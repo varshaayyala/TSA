@@ -1,0 +1,542 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    
+    <link href="Assets/main.css" rel="stylesheet" />
+	<link href="Assets/jquery-ui.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+        });
+    </script>
+
+    <title>ECO-E-BIKES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+<body>
+    <center>
+        <img src="Images/Logo.png" />
+        <table width="1450px">
+
+            <tr>
+                <td>
+                    <div class="w3-container">                         
+                        <div class="w3-bar w3-light-green">
+                            <button class="w3-bar-item w3-button w3-hover-aqua tablink w3-green" onclick="openCity(event,'Home')">Home Page</button>
+                            <button class="w3-bar-item w3-button w3-hover-aqua tablink w3-light-green" onclick="openCity(event,'CurrentWorld')">Current World</button>
+                            <button class="w3-bar-item w3-button w3-hover-aqua tablink w3-light-green" onclick="openCity(event,'AirPollution')">Air Pollution</button>
+                            <button class="w3-bar-item w3-button w3-hover-aqua tablink w3-light-green" onclick="openCity(event,'EBikes')">EBikes</button>
+                            <button class="w3-bar-item w3-button w3-hover-aqua tablink w3-light-green" onclick="openCity(event,'Comparison')">Comparison</button>
+                            <button class="w3-bar-item w3-button w3-hover-aqua tablink w3-light-green" onclick="openCity(event,'WhyOurEBikes')">Why Our EBikes?</button>
+                            <button class="w3-bar-item w3-button w3-hover-aqua tablink w3-light-green" onclick="openCity(event,'OurEBikes')">Our EBikes</button>
+                            <button class="w3-bar-item w3-button w3-hover-aqua tablink w3-light-green" onclick="openCity(event,'FAQs')">FAQs</button>
+                            <button class="w3-bar-item w3-button w3-hover-aqua tablink w3-light-green" onclick="openCity(event,'About')">About US</button>
+                        </div>
+
+                        <div id="Home" class="w3-container w3-border city" style="background-color: #F2EDD7FF;">
+                            <br /> 
+                            <h3 style="color: forestgreen;font-size: 25px;text-align:center">Our e-bikes are life-changing and change begins with you! Buy our e-bikes with a starting price of $2500!</h3>
+                            <br /> 
+                                  <center>
+                                      <img src="Images/ebike_specs.gif" />
+                                  </center>
+                            <br /><br /><br />
+                        </div>
+
+                        <div id="CurrentWorld" class="w3-container w3-border city" style="display:none;background-color:#dfe3de;">
+                            <h1 style="color: #195190FF;font-size: 55px;text-align:center">
+                                Current World
+                            </h1>
+                            <center>
+                                <img src="Images/CurrentWorld.png" width="1100" height="250" />
+                            </center>
+
+                            <h3 style="color: #195190FF;font-size: 33px;">Current Types of Automobile Transportation</h3>
+                            <ul style="font-size: 25px;">
+                                <li>Cars</li>
+                                <li>Buses</li>
+                                <li>Motorcycles</li>
+                                <li>Trains</li>
+                                <li>Bikes</li>
+                            </ul>
+
+                            <h3 style="color:#195190FF;font-size: 33px;">Why are current types of transportation detrimental to the environment?</h3>
+
+                            <p style="font-size: 25px;">
+                                Powered by fossil fuels
+                                Transportation emits more than half of nitrogen oxides in our air which is a major source of global warming emissions.
+                            </p>
+
+                            <h3 style="color: #195190FF;font-size: 33px;">Negative Effects of Fossil Fueled Transportation</h3>
+                            <ul style="font-size: 25px;">
+                                <li> Increased threat of global climate change </li>
+                                <li> Degradation of water resources </li>
+                                <li> Increase in Co2 emissions and other greenhouse gasses </li>
+                                <li> Increase in air pollution </li>
+                            </ul>
+                        </div>
+
+                        <div id="AirPollution" class="w3-container w3-border city" style="display:none;background-color:#ecfce8;">
+                            <h2 style="color: #2C5F2D;font-size: 55px;text-align:center">Air Pollution</h2>
+                            <center>
+                                <img src="Images/airpollution.png" width="300" height="250" />
+                            </center>
+
+                            <p style="font-size: 25px;text-align:center">
+                                Transportation powered by fossil fuels are major contributors to air pollution
+                            </p>
+
+
+                            <h3 style="color: #2C5F2D;font-size: 33px;">Air Pollution from Cars, Trucks and Buses</h3>
+                            <ul style="font-size: 25px;">
+                                <li>
+                                    Primary Pollution: Emitted directly into the atmosphere
+                                </li>
+                                <li>
+                                    Secondary Pollution: Results from chemical reactions between the pollutants in the atmosphere
+                                </li>
+                            </ul>
+
+                            <h3 style="color: #2C5F2D;font-size: 33px;">Major Pollutants from Motor Vehicles</h3>
+                            <ul style="font-size: 25px;">
+                                <li>
+                                    Particulate matter (PM)- Pose as a threat to human health, maily the lungs
+                                </li>
+                                <li>
+                                    Volatile Organic Compounds :Irritates the respiratory system
+                                </li>
+                                <li>
+                                    Volatile Organic Compounds :Irritates the respiratory system
+                                </li>
+                                <li>
+                                    Nitrogen Oxides: Lung irritation and weakens the body's defense against respiratory infections
+                                </li>
+                                <li>
+                                    Carbon Monoxide: Blocks oxygen from the brain, heart and other vital organs
+                                </li>
+                                <li>
+                                    Sulfur dioxide: Largest health risk to young children and asthmatics.
+                                </li>
+                                <li> Greenhouse gases </li>
+                            </ul>
+
+                            <h3 style="color: #2C5F2D;font-size: 33px;">Effects of Air Pollution </h3>
+                            <ul style="font-size: 25px;">
+                                <li> Pose many health risks at every stage of life </li>
+                                <li> Global warming</li>
+                                <li> Heat waves-risking all age groups </li>
+                                <li> Heavy duty vehicles generate more than 25 percent of global warming emissions.</li>
+                                <li>  Motor vehicles collectively cause 75 percent of carbon monoxide pollution in the U.S., on-road vehicles cause one-third of the air pollution that produces smog in the U.S., and transportation causes 27 percent of greenhouse gas emissions.  </li>
+                            </ul>
+                        </div>
+
+                        <div id="EBikes" class="w3-container w3-border city" style="display:none;background-color:#9CC3D5FF">
+
+                            <h2 style="color: mediumblue;text-align:center;font-size: 55px;">What are E-Bikes?</h2>
+                            <center>
+                                <img src="Images/EBikes.png" width="300" height="250" />
+                            </center>
+
+
+                            <p style="font-size: 25px;text-align:center;">
+                                E-Bikes are regular bikes with added components that help cross obstacles like mountains and hills easier. It does not replace human power but it helps augment it. It helps you travel further without getting tired.
+
+                                The main component of the electric bike is the motor. The motor’s power can range from 200W to 1000W. The higher the power, the quicker it drains the battery.
+                            </p>
+
+                            <h2 style="color: mediumblue;font-size: 43px;">Three Main Types of EBikes</h2>
+
+
+                            <h3 style="color: #0063B2FF;font-size: 33px;">Throttle Based</h3>
+                            <p style="font-size: 25px;">
+                                If you have a throttle based bike, you would push a button, or twist something to receive the electrical boost. You don’t need to pedal what-so-ever when in this mode.
+                            </p>
+
+                            <h3 style="color: #0063B2FF;font-size: 33px;">Pedal Based</h3>
+                            <p style="font-size: 25px;">
+                                The pedal based one will have electrical assistance the entire time you ride your bike. It will operate like a normal bike with an extra boost. .
+                            </p>
+
+                            <h3 style="color: #0063B2FF;font-size: 33px;">Hybrid Between</h3>
+                            <p style="font-size: 25px;">
+                                For the hybrid one you would press a button and then you would receive a pedal based push which will work just like the pedal based bike until you press the button again.
+                            </p>
+
+                            <h2 style="color: mediumblue;font-size: 43px;">Batteries</h2>
+                            <h3 style="color: #0063B2FF;font-size: 33px;">SLA</h3>
+                            <p style="font-size: 25px;">  Cost-efficient </p>
+
+                            <h3 style="color: #0063B2FF;font-size: 33px;">Lithium</h3>
+                            <p style="font-size: 25px;">  Lithium Batteries last 2-3 times longer than an SLA battery, it is also more lightweight, they also have a longer riding range.</p>
+                        </div>
+
+                        <div id="Comparison" class="w3-container w3-border city" style="display:none;background-color:#F2EDD7FF">
+                            <h2 style="color: orange;font-size: 45px;text-align:center;">Comparisons with normal Transportation</h2>
+                            <center>
+                                <img src="Images/Comparision.png" width="450" height="325" />
+                            </center>
+
+                            <p style="font-size: 24px;text-align:center;">Electric bikes travel much faster than any bike</p>
+                            <p style="font-size: 24px;text-align:center;">They require much less effort than other bikes</p>
+                            <p style="font-size: 24px;text-align:center;"> They are appropriate for people of ages where they cannot use as much energy to ride a normal bike</p>
+
+                            <h2 style="color: orange;font-size: 45px;">Electric Bikes vs. Regular Bikes</h2>
+                            <h3 style="color: black;font-size: 28px;">Though electric bikes and regular bikes have a few common features </h3>
+                            <ul style="font-size: 24px;">
+                                <li>Simple battery</li>
+                                <li>Throttle and drivetrain to a bike creates an exciting array of enhancements.</li>
+                            </ul>
+
+                            <h2 style="color: orange;font-size: 45px;">
+                                Gears & Display
+                            </h2>
+                            <h3 style="color: black;font-size: 28px;">
+                                Electric Bikes displays the speed, odometer, trips, and batter level. Some E-Bikes offer additional features including a GPS and Fitness tracker.
+                                E bikes also consist of 7-8 gears which means that riders can completely customize their bike.
+                            </h3>
+                            <ul style="font-size: 24px;">
+                                <li>High gear + high pedal = fast! </li>
+                                <li>Low great + low pedal assist = great cardio!</li>
+                            </ul>
+
+                            <h2 style="color: orange;font-size: 45px;">Motor</h2>
+                            <h3 style="color: black;font-size: 28px;">With an e-bike, you are in control of the motor. It will adjust assistance according to how hard you pedal, to deliver just the right amount of power.</h3>
+
+
+                            <h2 style="color: orange;font-size: 45px;">Cost</h2>
+                            <h3 style="color: black;font-size: 28px;">Electric Bikes- Generally, electric bikes will range in price from a low of $600 to over $8000.</h3>
+                            <h3 style="color: black;font-size: 28px;">
+                                A regular bicycle remains one of the most affordable modes of transportation. For only a few
+                                hundred dollars however electric bikes will cost up to thousands of dollars.
+                            </h3>
+
+                            <h2 style="color: orange;font-size: 45px;">Pros of E-Bikes</h2>
+                            <ul style="font-size: 24px;">
+                                <li>Less hard on knees and joints than riding a traditional bicycle</li>
+                                <li>Won’t get hot riding up hills, won’t struggle riding in the wind</li>
+                            </ul>
+
+                            <h2 style="color: orange;font-size: 45px;">Summary!</h2>
+                            <ul style="font-size: 24px;">
+                                <li>
+                                    Why an ebike is a better mode of transportation: It produces significantly less pollution than any mode of transportation that uses fossil fuels. Thus reducing the air pollution.
+                                </li>
+                                <li>
+                                    Ebike vs Normal bike, why is it better: An Ebike is a regular bike with added motorized parts. This helps you travel much further without getting tired. It is a more reliable source for traveling longer distances.
+                                </li>
+                                <li>Different types of ebike parts: Ebikes come with a variety of different parts, their motor power’s can range from 200W to 1000w. There are also different types of batteries you can choose from. Each type of motor and battery comes with different benefits and disadvantages.</li>
+                            </ul>
+                        </div>
+
+                        <div id="WhyOurEBikes" class="w3-container w3-border city" style="display:none;background-color:#f6edfc">
+                            
+                            <h1 style="color: rebeccapurple;text-align:center;font-size: 55px;">Why Our Company?</h1>
+
+                            <center>
+                                <img src="Images/ThinkWhy.jpg" width="350" height="265" />
+                            </center>
+
+                            <h2 style="color: black;font-size: 27px;">
+                                Customers should choose our company because we present an affordable and clean method of transportation. It is useful to people of all ages, and is a great investment because it does not pollute the environment unlike other modes of transportation.. Customers should also choose our products because we have affordable prices and one of the best E-Bikes in the market. For example, we have the pedal mode, which basically is a regular bike but with added electrical boost. We also have the throttle mode, which means that you don't need to bike or pedal, the electric boost will do it for you. Our bikes cost ranging from 2,500 - $4,500, and we have a variety of modes for your preference! Overall, E-Bikes are a great investment for anyone, and they are also useful and fun.
+                            </h2>
+
+                            <h1 style="color: rebeccapurple;font-size: 45px;text-align:center">Why are electric bikes better for the environment, rather than other means of transportation? </h1>
+                            <h2 style="color: mediumpurple;font-size: 33px;">Electric bikes are only one-tenth as polluting as driving a car the same distance.</h2>
+                            <p style="font-size: 27px;">
+                                They are considered zero-emission vehicles and run on clean energy, which is electric energy.
+                                As a result, their use prevents the release of roughly 500 pounds of carbon emissions.
+                            </p>
+                            <h2 style="color: mediumpurple;font-size: 33px;">Electric bikes run on batteries, not fossil fuels!</h2>
+                            <p style="font-size: 27px;">
+                                Batteries can be recycled and will end up in landfills where they are disposed of in a safe manner.
+                                Batteries do not need to be replaced as often as gas
+                                Most e-bike batteries do not contain lead which is good for the environment.
+                            </p>
+
+                        </div>
+
+                        <div id="OurEBikes" class="w3-container w3-border city" style="display:none;background-color:#9CC3D5FF">
+                            <h1 style="color: palevioletred;font-size: 25px;">Check out our bikes and read the descriptions to see which bike best fits your interest! Have fun choosing!</h1>
+
+                            <div id="tabs">
+                                <ul>
+                                    <li><a href="#tabs-1">Electric Mountain Bikes</a></li>
+                                    <li><a href="#tabs-2">Electric Road Bikes</a></li>
+                                    <li><a href="#tabs-3">Electric Hybrid Bikes</a></li>
+                                    <li><a href="#tabs-4">Kids Electric Bikes</a></li>
+
+                                </ul>
+                                <div id="tabs-1">
+                                    <h1 style="color: blue;font-size:55px;text-align:center;">Electric Mountain Bikes</h1>
+
+                                    
+                                          <center>
+                                <img src="Images/giant_ebike.jpg" width="550" height="265" />
+                            </center>
+
+
+                                    <u style="color:gray;font-size: 40px;">Power Pedals (Hybrid and Pedal Based)</u>
+                                    <h3 style="color: black;font-size:30px;">
+                                        Our most versatile bike comes with a powerful Lithium Battery and comes in both hybrid and pedal-based. The thick tires and handlebar height adjustment are perfect for off-road riders.
+                                    </h3>
+
+                                    <h3 style="color: deepskyblue;font-size: 30px;"> Cost </h3>
+
+                                    <ul style="font-size: 25px;">
+                                        <li>
+                                            Hybrid Based ($4,500)  (High)
+                                        </li>
+                                        <li>
+                                            Pedal Based ($4,000) (Medium)
+                                        </li>
+                                    </ul>
+
+
+                                    <u style="color:gray;font-size: 40px;">Rock-Solid (Hybrid Based)</u>
+                                    <h3 style="color: black;font-size:30px;">
+                                        With a powerful drive system and reliable battery, the Hybrid based with SLA battery is built for trail riders.
+                                    </h3>
+
+                                    <h3 style="color: deepskyblue;font-size: 30px;"> Cost </h3>
+
+                                    <ul style="font-size: 25px;">
+                                        <li>
+                                            Hybrid Based  (2,999)  (Low)
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="tabs-2">
+                                    <h1 style="color: blue;font-size:55px;text-align:center;">Electric Road Bikes</h1>
+                                    <center>
+                                        <img src="Images/ElectricRoad.jpg" width="550" height="265" />
+                                    </center>
+
+                                    <u style="color:gray;font-size: 40px;">Blaze (Pedal Based)</u>
+                                    <h3 style="color: black;font-size: 30px;">
+                                        High Powered Pedal Based electric bike with a Lithium Battery and curved handles for long-ride adventures on the road.
+                                    </h3>
+
+                                    <h3 style="color: deepskyblue;font-size: 30px;"> Cost </h3>
+
+                                    <ul style="font-size: 25px;">
+
+                                        <li>
+                                            Pedal Based 3,499 (High)
+                                        </li>
+                                    </ul>
+
+
+                                    <u style="color:gray;font-size: 40px;">Fly Flee (Hybrid Based)</u>
+                                    <h3 style="color: black;font-size: 30px;">
+                                        The lightest electric bike we have ever made comes with an SLA Battery, Hybrids Based, and Ultra-thin tires, best for groups of fast riders.
+                                    </h3>
+
+                                    <h3 style="color: deepskyblue;font-size: 30px;"> Cost </h3>
+
+                                    <ul style="font-size: 25px;">
+
+                                        <li>
+                                            Hybrid Based 3000 (Medium)
+                                        </li>
+                                    </ul>
+
+
+                                    <u style="color:gray;font-size: 40px;">Road Grinder (Throttle Based)</u>
+                                    <h3 style="color: black;font-size: 30px;">
+                                        Our most throttle based affordable e-road bike that is throttle based with a strong and powerful lithium battery for boost.
+                                    </h3>
+
+                                    <h3 style="color: deepskyblue;font-size: 30px;"> Cost </h3>
+
+                                    <ul style="font-size: 25px;">
+                                        <li>
+                                            Throttle Based 2,500 (Low)
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="tabs-3">
+                                    <h1 style="color: blue;font-size:55px;text-align:center;">Electric Hybrid Bikes</h1>
+                                    <center>
+                                        <img src="Images/urban.jpg" width="550" height="265" />
+                                    </center>
+
+                                    <u style="color:gray;font-size: 40px;">Raze</u>
+                                    <h3 style="color: black;font-size: 30px;">
+                                        Our most comfortable city e-bike’s and has reliable power with upright riding position, perfect for fun recreational rides.
+                                    </h3>
+
+                                    <h3 style="color: deepskyblue;font-size: 30px;">Cost </h3>
+
+                                    <ul style="font-size: 25px;">
+                                        <li>
+                                            Hybrid 4,000 (High)
+                                        </li>
+                                    </ul>
+
+
+                                    <u style="color:gray;font-size: 40px;">Spitfire</u>
+                                    <h3 style="color: black;font-size: 30px;">
+                                        Sleek, speedy, and ultra-premium. It makes long road adventures fun and is an awesome choice for replacing your car.
+                                    </h3>
+
+                                    <h3 style="color: deepskyblue;font-size: 30px;"> Cost </h3>
+
+                                    <ul style="font-size: 25px;">
+                                        <li>
+                                            Hybrid 3,640 (Medium)
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="tabs-4">
+                                    <h2 style="color: blue; font-size:55px;text-align:center;">Kids Electric Bikes!</h2>
+                                    <center>
+                                        <img src="Images/Kids.jpg" width="550" height="265" />
+                                    </center>
+                                    <u style="color:gray;font-size: 40px;">Iron Clad</u>
+                                    <h3 style="color: black;font-size: 30px;">
+                                        A throttle based geared bike with thick tires with curved handles for stronger grip makes everyday bike riding even more enjoyable.
+                                    </h3>
+
+                                    <h3 style="color: deepskyblue;font-size: 30px;"> Cost </h3>
+
+                                    <ul style="font-size: 25px;">
+                                        <li>
+                                            Throttle Based 3,000 (Medium)
+                                        </li>
+                                    </ul>
+
+
+                                    <u style="color:gray;font-size: 40px;">Smokey Hawk</u>
+                                    <h3 style="color: black;font-size: 30px;">
+                                        A pedal based  geared bike with thin tires, light for a  speedy, and comfortable ride.
+                                    </h3>
+
+                                    <h3 style="color: deepskyblue;font-size: 30px;"> Cost </h3>
+
+                                    <ul style="font-size: 25px;">
+
+                                        <li>
+                                            Pedal Based 3,599 (Medium)
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="FAQs" class="w3-container w3-border city" style="display:none;background-color:#F2EDD7FF">
+                            <h2 style="color:blue;font-size:60px;text-align:center">FAQs</h2>
+                            <center>
+                                <img src="Images/faq.jpg" width="550" height="265" />
+                            </center>
+                            <h3 style="color: deepskyblue;font-size:35px;">Question:How fast are electric bikes? </h3>
+                            <i style="color: black;font-size:31px;">Answer:Most e bikes range from 16 mph to 28 mph. </i>
+
+
+                            <h3 style="color: deepskyblue;font-size:35px;">Question:Is the ride smooth? </h3>
+                            <i style="color: black;font-size:31px;">Answer:Electric bikes have a smooth, stable, luxurious ride. </i>
+
+                            <h3 style="color: deepskyblue;font-size:35px;">Question:How far can you go with on charge? </h3>
+                            <i style="color: black;font-size:31px;">Answer:22 - 50 miles</i>
+
+                            <h3 style="color: deepskyblue;font-size:35px;">Question:Do e-bikes require a license?</h3>
+                            <i style="color: black;font-size:31px;">Answer:Depending on where you live, you may or may not require a license.</i>
+
+                            <h3 style="color: deepskyblue;font-size:35px;">Question:What is the best part about an e-bike?</h3>
+                            <i style="color: black;font-size:31px;">Answer:E-bikes are extremely fun to ride on, and helps reduce the carbon footprint on our planet by being environmentally friendly!</i>
+
+
+                            <h3 style="color: deepskyblue;font-size:35px;">Question:What is a watt hour? </h3>
+                            <i style="color: black;font-size:31px;">Answer:A watt hour is the measurement of the battery capacity, ranging from 20-100 miles.</i>
+
+                            <h3 style="color: deepskyblue;font-size:35px;">Question:Where can I ride?</h3>
+                            <i style="color: black;font-size:31px;">Answer:You can ride on trials and bike paths. You can even ride on highway sidewalks.</i>
+
+                            <h3 style="color: deepskyblue;font-size:35px;">Question:Do I need to wear a helmet while riding an e-bike?</h3>
+                            <i style="color: black;font-size:31px;">Answer:California, Georgia, Louisiana, New York, Ohio, Tennessee, Virginia and West Virginia require the operator and all passengers of class three electric bicycles, regardless of age, to wear protective headgear. </i>
+
+                        </div>
+
+                        <div id="About" class="w3-container w3-border city" style="display:none;background-color:#F2EDD7FF">
+                            <table>
+                                <tr>
+                                    <td colspan="2">
+                                        <h2 style="color:blue;font-size:60px;text-align:center">This website was designed and developed by</h2>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        
+                                        <h2 style="color: deepskyblue;font-size:35px;">Varsha Ayyala<br /></h2>
+                                        <h2 style="color: deepskyblue;font-size:35px;">Hamsika Irukuvajjala<br /></h2>
+                                        <h2 style="color: deepskyblue;font-size:35px;">Sampriti Muthuswamy<br /></h2>
+                                        <h2 style="color: deepskyblue;font-size:35px;">Archi Marrapu<br /></h2>
+                                        <h2 style="color: deepskyblue;font-size:35px;">Veda Murthy<br /></h2>
+                                        <h2 style="color: deepskyblue;font-size:35px;"> Samanvi Tummala<br /></h2>
+                                        
+                                    </td>
+                                    <td>
+                                        <center>
+                                            <img src="Images/ebike.jpg" width="550" height="365" />
+                                        </center>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <i style="color: black;font-size:31px;">
+                                            We made this website completely using HTML from scratch (Visual Studio is the platform used), no templates were used.
+                                        </i>
+
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+    </center>
+    <script>
+        function openCity(evt, cityName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-green", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " w3-green";
+        }
+
+
+        document.getElementById("circle").onclick = function () {
+
+            document.getElementById("circle").style.display = "none";
+
+        }
+
+        document.getElementById("rounded").onclick = function () {
+
+            document.getElementById("rounded").style.display = "none";
+
+        }
+
+        document.getElementById("square").onclick = function () {
+
+            document.getElementById("square").style.display = "none";
+
+        }
+    </script>
+</body>
+</html>
